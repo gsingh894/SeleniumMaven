@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Facebook Login Check">
+  <test thread-count="5" name="Test">
+  <parameter name="appURL" value="https://www.facebook.com/" />
+	<parameter name="environment" value="Test" />
+	<parameter name="browserType" value="chrome" />
+    <classes>
+      <class name="tests.FacebookAssignmentTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
